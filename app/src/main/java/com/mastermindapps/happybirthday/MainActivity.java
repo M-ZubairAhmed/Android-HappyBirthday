@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
                         finish();
                     }
                 })
+                .setCancelable(false)
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this,"You are a good soul",Toast.LENGTH_SHORT).show();
+                    }
+                })
                 .create();
         alertDialog.show();
     }
