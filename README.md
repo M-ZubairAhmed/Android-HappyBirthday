@@ -1,4 +1,4 @@
-*Android-HappyBirthday*
+*HappyBirthday Card*
 ===================================
 
 This app displays a birthday card.
